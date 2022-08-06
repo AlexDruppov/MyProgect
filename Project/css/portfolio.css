@@ -1,0 +1,271 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    
+    max-width: 1600px;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.blue {
+    color: #2196F3;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.black {
+   color: #000000;
+}
+
+
+a:hover, a:focus{
+    color: #2196F3;
+}
+
+button:hover, button:focus{
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    
+}
+
+
+.header {
+    margin-bottom: 94px;
+}
+
+.conteiner{
+    display: inline-block;
+    width: 1600px;
+    height: 80px;
+    margin: 0 auto;  
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.logo {
+    margin: 24px 93px 25px 215px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+} 
+
+.navbar{
+
+    margin: 32px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.navbarMenu:nth-child(2) {
+    margin: 0px 50px ;
+}
+
+.navbarMenu {
+    display: inline-block;
+}
+
+.contacts {
+    margin-left: 331px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+       
+}
+
+.mail {
+    margin-right: 50px;
+    color: #2196F3; 
+}
+
+.phone {
+    color: #757575;
+}
+
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.mainPage {
+    margin-left: 100px;
+    margin-bottom: 94px;
+    width: 1170px;
+    height: 1360px;
+    margin-left: 215px;
+}
+
+.button{
+    margin-left: 280px;
+    margin-right: 279px;
+    margin-bottom: 50px;
+}
+
+.button1{
+    width: 73px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-right: 8px;
+
+}
+
+.button2 {
+    width: 128px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.button3 {
+    width: 145px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    /* margin-right: 8px; */
+}
+
+.button4 {
+    width: 103px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    /* margin-right: 8px; */
+}
+
+.button5 {
+    width: 130px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+
+.buttonText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.portfolioImg {
+    width: 370px;
+    height: 294px;
+    margin-bottom: 20px;
+}
+
+.list{
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+}
+
+.list:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.list:nth-child(5) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.list:nth-child(8) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h4 {
+    margin-left: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+p {
+    margin-left: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer {
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+    display: block;
+}
+
+
+.footerlogo {
+    padding-top: 60px;
+    margin-left: 215px;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+    
+}
+
+
+.address, .address1 {
+    margin-bottom: 9px;
+    margin-left: 215px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    display: block;
+}
+
+address:nth-child(1) {
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+address:nth-child(2) {
+    margin-bottom: 60px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address:focus, .address:hover{
+    color: #2196F3;
+} 
+
+
