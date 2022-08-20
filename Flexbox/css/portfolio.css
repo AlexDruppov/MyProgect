@@ -7,13 +7,10 @@
 }
 
 body{
-    width: 1600px;
-    margin: 0 auto; 
     background: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
-
 
 a {
     text-decoration: none;
@@ -42,47 +39,42 @@ button:hover, button:focus{
     
 }
 
-
-.header {
-    margin-bottom: 94px;
-}
-
-.conteiner{
-    display: inline-block;
-    height: 80px;
-    margin: 0 auto;  
-}
-
-.inlineBlock{
-    display: inline-block;
+.container{
+    width: 1200px;
+    margin: 0 auto;    
+ }
+ 
+.flexHeader{
+     display: flex;
+     align-items: center;
+     height: 80px;
 }
 
 .logo {
-    margin: 24px 93px 25px 215px;
+    margin-right: 93px;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
 } 
 
 .navbar{
-
-    margin: 32px 0px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #2196F3;
+    margin-right: 331px;
 }
+
 .navbarMenu:nth-child(2) {
     margin: 0px 50px ;
 }
 
 .navbarMenu {
-    display: inline-block;
+    list-style: none;
 }
 
 .contacts {
-    margin-left: 331px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -101,21 +93,13 @@ button:hover, button:focus{
 }
 
 
-.inlineBlock{
-    display: inline-block;
-}
-
 .mainPage {
-    margin-left: 100px;
-    margin-bottom: 94px;
-    width: 1170px;
-    height: 1360px;
-    margin-left: 215px;
+    padding: 94px 0;
 }
 
 .button{
-    margin-left: 280px;
-    margin-right: 279px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
@@ -141,7 +125,7 @@ button:hover, button:focus{
     height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
-    /* margin-right: 8px; */
+    margin-right: 8px;
 }
 
 .button4 {
@@ -149,7 +133,7 @@ button:hover, button:focus{
     height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
-    /* margin-right: 8px; */
+    margin-right: 8px;
 }
 
 .button5 {
@@ -171,11 +155,13 @@ button:hover, button:focus{
     color: #212121;
 }
 
-.portfolioImg {
-    width: 370px;
-    height: 294px;
-    margin-bottom: 20px;
+.portfolioMain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
+
 
 .list{
     width: 370px;
@@ -183,6 +169,13 @@ button:hover, button:focus{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
+    list-style: none;
+}
+
+.portfolioImg {
+    width: 370px;
+    height: 294px;
+    margin-bottom: 20px;
 }
 
 .list:nth-child(2) {
@@ -200,7 +193,7 @@ button:hover, button:focus{
     margin-right: 20px;
 }
 
-h4 {
+.caption {
     margin-left: 24px;
     font-family: 'Roboto';
     font-style: normal;
@@ -211,7 +204,7 @@ h4 {
     color: #212121;
 }
 
-p {
+.text {
     margin-left: 24px;
     font-family: 'Roboto';
     font-style: normal;
@@ -223,26 +216,27 @@ p {
 }
 
 .footer {
+    
     height: 252px;
     background: #2F303A;
-    display: block;
-}
-
-
-.footerlogo {
-    padding-top: 60px;
-    margin-left: 215px;
-    display: block;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    margin-bottom: 20px;
     
 }
 
+.flexfooter{
+    display: flex;
+    flex-direction: column;
+    
+}
 
-.address, .address1 {
+.footerlogo {
+    padding-top: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.address {
     margin-bottom: 9px;
-    margin-left: 215px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -252,14 +246,15 @@ p {
     display: block;
 }
 
-address:nth-child(1) {
-    
+.address1 {
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
-
-address:nth-child(2) {
-    margin-bottom: 60px;
-    color: rgba(255, 255, 255, 0.6);
+    display: block;
 }
 
 .address:focus, .address:hover{
